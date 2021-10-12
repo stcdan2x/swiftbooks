@@ -9,6 +9,7 @@ import { ClientService } from 'src/app/services/client.service';
 })
 export class ClientsComponent implements OnInit {
   clients: Client[];
+  balance: number;
 
   constructor(private clientservice: ClientService) {}
 
